@@ -9,6 +9,9 @@
       <router-link class="link" to="/v-model-example">
         Multi v-model
       </router-link>
+      <router-link class="link" to="/product-example">
+        Product
+      </router-link>
     </div>
   <router-view />
 </template>

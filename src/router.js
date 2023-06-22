@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SuspenseExample from '@/pages/SuspenseExample.vue'
 import TeleportExample from '@/pages/TeleportExample.vue'
 import MultiVmodel from '@/pages/MultiVmodel.vue'
+import ProductExample from '@/pages/ProductExample.vue'
 
 const routes = [
     {
@@ -16,7 +17,10 @@ const routes = [
     {
         path: '/v-model-example',
         component: MultiVmodel
-
+    },
+    {
+        path: '/product-example',
+        component: ProductExample
     },
 ]
 
